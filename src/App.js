@@ -44,7 +44,7 @@ function App() {
         <div className="header-content">
           <div className="logo">
             <div className="logo-icon">
-              <img src="/spothaus_app_icon.png" alt="Spothaus Logo" width="32" height="32" />
+              <img src="./spothaus_app_icon.png" alt="Spothaus Logo" width="32" height="32" />
             </div>
             <span>Spothaus</span>
           </div>
@@ -99,7 +99,7 @@ function App() {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <div className="hero-app-preview">
-              <img src="/map_view.PNG" alt="Spothaus App Interface" className="hero-screenshot" />
+              <img src="./map_view.PNG" alt="Spothaus App Interface" className="hero-screenshot" />
             </div>
           </motion.div>
         </div>
@@ -221,7 +221,7 @@ function App() {
               viewport={{ once: true }}
             >
               <div className="screenshot-image">
-                <img src="/welcome.PNG" alt="Spothaus Welcome Screen" className="app-screenshot" />
+                <img src="./welcome.PNG" alt="Spothaus Welcome Screen" className="app-screenshot" />
               </div>
               <h3>Welcome Experience</h3>
               <p>Intuitive onboarding that gets you started with vibe-based search</p>
@@ -235,7 +235,7 @@ function App() {
               viewport={{ once: true }}
             >
               <div className="screenshot-image">
-                <img src="/natural_language.PNG" alt="Spothaus Natural Language Search" className="app-screenshot" />
+                <img src="./natural_language.PNG" alt="Spothaus Natural Language Search" className="app-screenshot" />
               </div>
               <h3>Natural Language Search</h3>
               <p>Search by vibe, mood, and specific needs using everyday language</p>
@@ -249,7 +249,7 @@ function App() {
               viewport={{ once: true }}
             >
               <div className="screenshot-image">
-                <img src="/list_view.PNG" alt="Spothaus List View Results" className="app-screenshot" />
+                <img src="./list_view.PNG" alt="Spothaus List View Results" className="app-screenshot" />
               </div>
               <h3>Smart Results</h3>
               <p>AI-powered matching with vibe scores and relevant tags</p>
@@ -263,7 +263,7 @@ function App() {
               viewport={{ once: true }}
             >
               <div className="screenshot-image">
-                <img src="/place_details.PNG" alt="Spothaus Place Details" className="app-screenshot" />
+                <img src="./place_details.PNG" alt="Spothaus Place Details" className="app-screenshot" />
               </div>
               <h3>Place Details</h3>
               <p>Comprehensive place information with hours, features, and quick actions</p>
@@ -277,7 +277,7 @@ function App() {
               viewport={{ once: true }}
             >
               <div className="screenshot-image">
-                <img src="/ai_summary.PNG" alt="Spothaus AI Summary" className="app-screenshot" />
+                <img src="./ai_summary.PNG" alt="Spothaus AI Summary" className="app-screenshot" />
               </div>
               <h3>Detailed Insights</h3>
               <p>AI-generated summaries and actionable information for each spot</p>
@@ -352,7 +352,7 @@ function App() {
               viewport={{ once: true }}
             >
               <div className="screenshot-image">
-                <img src="/map_view.PNG" alt="Spothaus Map View" className="app-screenshot" />
+                <img src="./map_view.PNG" alt="Spothaus Map View" className="app-screenshot" />
               </div>
             </motion.div>
           </div>
@@ -382,7 +382,7 @@ function App() {
               viewport={{ once: true }}
             >
               <div className="screenshot-image">
-                <img src="/list_view.PNG" alt="Spothaus List View" className="app-screenshot" />
+                <img src="./list_view.PNG" alt="Spothaus List View" className="app-screenshot" />
               </div>
             </motion.div>
             
@@ -596,7 +596,7 @@ function App() {
             <div className="footer-section">
               <div className="logo">
                 <div className="logo-icon">
-                  <img src="/spothaus_app_icon.png" alt="Spothaus Logo" width="32" height="32" />
+                  <img src="./spothaus_app_icon.png" alt="Spothaus Logo" width="32" height="32" />
                 </div>
                 <span>Spothaus</span>
               </div>
