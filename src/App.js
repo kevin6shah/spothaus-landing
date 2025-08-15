@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { 
   MapPin, 
@@ -68,7 +68,7 @@ function HomePage() {
             <a href="#screenshots">Screenshots</a>
             <a href="#map-view">Map View</a>
             <a href="#list-view">List View</a>
-            <a href="/blog/what-is-spothaus">Blog</a>
+            <a href="/#/blog/what-is-spothaus">Blog</a>
             <a href="#download" className="cta-button">Download</a>
           </nav>
 
@@ -631,7 +631,7 @@ function HomePage() {
               <a href="#about">About</a>
               <a href="#contact">Contact</a>
               <a href="#privacy">Privacy</a>
-              <a href="/blog/what-is-spothaus">Blog</a>
+              <a href="/#/blog/what-is-spothaus">Blog</a>
             </div>
             
             <div className="footer-section">

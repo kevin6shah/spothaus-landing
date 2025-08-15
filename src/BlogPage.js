@@ -10,7 +10,7 @@ function BlogPage() {
       <header className="blog-header">
         <div className="container">
           <div className="header-content">
-            <a href="/" className="back-link">
+            <a href="/#/" className="back-link">
               <ArrowLeft size={20} />
               Back to Spothaus
             </a>
@@ -289,7 +289,7 @@ function BlogPage() {
                 <div className="cta-box">
                   <h3>Ready to Find Your Perfect Vibe?</h3>
                   <p>Download <strong>Spothaus</strong> today and discover a new way to explore New York City</p>
-                  <a href="/#download" className="cta-button">
+                  <a href="/#/#download" className="cta-button">
                     Download Spothaus
                   </a>
                 </div>
@@ -315,15 +315,15 @@ function BlogPage() {
             
             <div className="footer-section">
               <h4>Product</h4>
-              <a href="/#features">Features</a>
-              <a href="/#how-it-works">How it Works</a>
-              <a href="/#screenshots">Screenshots</a>
+              <a href="/#/#features">Features</a>
+              <a href="/#/#how-it-works">How it Works</a>
+              <a href="/#/#screenshots">Screenshots</a>
             </div>
             
             <div className="footer-section">
               <h4>Company</h4>
-              <a href="/">Home</a>
-              <a href="/blog/what-is-spothaus">Blog</a>
+              <a href="/#/">Home</a>
+              <a href="/#/blog/what-is-spothaus">Blog</a>
             </div>
           </div>
           
