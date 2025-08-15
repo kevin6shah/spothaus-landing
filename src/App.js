@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { 
   MapPin, 
@@ -16,8 +17,20 @@ import {
   X
 } from 'lucide-react';
 import './App.css';
+import BlogPage from './BlogPage';
 
 function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/blog/what-is-spothaus" element={<BlogPage />} />
+        <Route path="/" element={<HomePage />} />
+      </Routes>
+    </Router>
+  );
+}
+
+function HomePage() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const { scrollY } = useScroll();
@@ -55,6 +68,7 @@ function App() {
             <a href="#screenshots">Screenshots</a>
             <a href="#map-view">Map View</a>
             <a href="#list-view">List View</a>
+            <a href="/blog/what-is-spothaus">Blog</a>
             <a href="#download" className="cta-button">Download</a>
           </nav>
 
@@ -617,6 +631,7 @@ function App() {
               <a href="#about">About</a>
               <a href="#contact">Contact</a>
               <a href="#privacy">Privacy</a>
+              <a href="/blog/what-is-spothaus">Blog</a>
             </div>
             
             <div className="footer-section">
