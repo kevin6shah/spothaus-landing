@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/spothaus-landing/static/css/main.a6cb5d87.css",
+    "main.js": "/spothaus-landing/static/js/main.b828ca79.js",
+    "index.html": "/spothaus-landing/index.html",
+    "main.a6cb5d87.css.map": "/spothaus-landing/static/css/main.a6cb5d87.css.map",
+    "main.b828ca79.js.map": "/spothaus-landing/static/js/main.b828ca79.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6cb5d87.css",
+    "static/js/main.b828ca79.js"
+  ]
+}
