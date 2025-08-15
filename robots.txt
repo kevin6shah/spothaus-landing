@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://spothaus.app/sitemap.xml
+
+# Blog page
+Allow: /blog/what-is-spothaus
