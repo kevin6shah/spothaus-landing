@@ -2,7 +2,7 @@
   "name": "spothaus-landing",
   "version": "1.0.0",
   "description": "Spothaus - AI-powered vibe matching app landing page",
-  "homepage": "https://kevin6shah.github.io/spothaus-landing",
+  "homepage": "https://spothaus.app",
   "main": "index.js",
   "scripts": {
     "start": "react-scripts start",

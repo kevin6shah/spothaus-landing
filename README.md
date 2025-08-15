@@ -69,4 +69,4 @@ npm run deploy
 - Mobile-first approach
 
 ## 🌐 Live Demo
-Your app will be available at: `https://[YOUR_USERNAME].github.io/spothaus-landing`
+Your app will be available at: `https://spothaus.app`
